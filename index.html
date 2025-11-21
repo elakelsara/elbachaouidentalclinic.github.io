@@ -59,7 +59,7 @@
   <p> Tel: <a href="tel:+212XXXXXXXXX">+212 539964637</a> </strong></p>
 
   <!-- Two images -->
-  
+  <div class="assistants-line">
     <figure>
     <img src="image1.jpg" alt="Mme Faouzia ">
     <figcaption>Mrs Faouzia : assistant ...</figcaption>
@@ -68,7 +68,7 @@
     <img src="image2.jpg" alt="Mme ..... ">
     <figcaption>Mrs ..... : assistant ...</figcaption>
     </figure> 
-  
+  </div>
   </section>
 
    <section id="access">
@@ -133,9 +133,9 @@
 
   <!-- The 3 clickable tabs -->
   <div class="procedure-tabs">
-    <button class="procedure-btn" onclick="showProcedure('implantologie')">Implantologie</button>
-    <button class="procedure-btn" onclick="showProcedure('orthodontie')">Orthodontie</button>
-    <button class="procedure-btn" onclick="showProcedure('parodontologie')">Parodontologie</button>
+    <button class="procedure-btn" onclick="showProcedure('implantologie')">Implantology</button>
+    <button class="procedure-btn" onclick="showProcedure('orthodontie')">Orthodontics</button>
+    <button class="procedure-btn" onclick="showProcedure('parodontologie')">Periodontics</button>
   </div>
 
   <!-- Content sections -->
@@ -155,6 +155,7 @@
   </div>
 
   </div>
+  </section>
 
   <section id="facilities">
 
@@ -215,7 +216,7 @@
   </section>
 
 
-  <section id="Advices">
+  <section id="advices">
   <h2>Advices</h2>
   <div class="form-container">
   <p><strong> In this section, we'll povide gradually some advice about dental care and dental treatment.</strong></p>
@@ -236,13 +237,16 @@
 
 </body>
 
-  <footer>
+
+  <footer class="my-footer">
     <p>© <span id="year"></span> El Bachaoui Dental Clinic. All rights reserved.</p>
   </footer>
  
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
-</html>
 
+
+
+</html>
 
