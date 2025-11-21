@@ -1,0 +1,311 @@
+/* Reset basic margins/padding so we start clean */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page background + global font */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* ===== TOP HEADER ===== */
+.top-header {
+  background-color: #a03514;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.top-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.top-links a:hover {
+  text-decoration: underline;
+}
+
+/* ===== MAIN NAV BAR ===== */
+.main-nav {
+  background-color: #b5401a;
+  padding: 10px 40px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 25px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+/* ===== UNIVERSAL SECTION SPACING (same as main) ===== */
+.section-block {
+  padding: 40px 20px;
+  background-color: white;
+  margin: 20px 40px;
+  border-radius: 4px;
+}
+
+/* ===== MAIN ===== */
+main {
+  padding: 40px 20px;
+  background-color: white;
+  margin: 20px 40px;
+  border-radius: 4px;
+}
+
+main h1 {
+  margin-bottom: 10px;
+}
+
+/* MAP */
+.map-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* ACCESS SECTION */
+#access {
+    padding: 40px 20px;
+    background-color: white;
+    margin: 20px 40px;
+    border-radius: 4px;
+}
+
+#access h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.address-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* OPINION SECTION */
+#opinion {
+    padding: 40px 20px;
+    background-color: white;
+    margin: 20px 40px;
+    border-radius: 4px;
+}
+
+#opinion h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-container {
+  max-width: 900px;
+  margin: 0 auto 20px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  padding: 10px;
+}
+
+.form-container iframe {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+}
+
+/* WORKING HOURS */
+#workingHours {
+    padding: 40px 20px;
+    background-color: white;
+    margin: 20px 40px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#workingHours h1 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* APPOINTMENT */
+#appointment {
+    padding: 40px 20px;
+    background-color: white;
+    margin: 20px 40px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#appointment h1 {
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* IMAGES */
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+figure {
+  text-align: center;
+}
+
+figure img {
+  width: 100px;
+  border-radius: 8px;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #444;
+  font-weight: 500;
+}
+
+/* MEDICAL PROCEDURES */
+#medical-procedures {
+  padding: 40px 20px;
+  margin: 20px 40px;
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.procedure-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 20px;
+}
+
+.procedure-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #a03514;
+  padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s;
+}
+
+.procedure-btn:hover {
+  border-bottom: 3px solid #a03514;
+}
+
+.procedure-content {
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: none;
+}
+
+#facilities {
+  padding: 40px 20px;
+  margin: 20px 40px;
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.facilities-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 20px;
+}
+
+.facilities-btn {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #a03514;
+  padding-bottom: 5px;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s;
+}
+
+.facilities-btn:hover {
+  border-bottom: 3px solid #a03514;
+}
+
+.facilities-content {
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: none;
+}
+
+.doctors-line {
+    display: flex;               /* met les figures sur une seule ligne */
+    justify-content: center;     /* centre le tout */
+    gap: 40px;                   /* espace entre les figures */
+    margin-top: 20px;
+}
+
+.doctors-line figure {
+    text-align: center;          /* centre l’image et la légende */
+}
+
+.doctors-line img {
+    width: 220px;                /* ajuste la taille comme tu veux */
+    height: auto;
+    border-radius: 8px;          /* optionnel : arrondir les bords */
+}
+
+.doctors-line figcaption {
+    color: black;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #a03514;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+} 

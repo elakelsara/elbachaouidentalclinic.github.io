@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>El Bachaoui Dental Clinic</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- TOP HEADER -->
+  <header class="top-header">
+    <div class="logo">El Bachaoui Dental Clinic</div>
+    <nav class="top-links">
+      <a href="#workingHours">Working hours</a>
+      <a href="#appointment">Book an Appointment</a>
+      <a href="#">Access</a>
+      <a href="#opinion">Give your opinion</a>
+    </nav>
+  </header>
+
+  <!-- MAIN NAVIGATION BAR -->
+  <nav class="main-nav">
+    <a href="#medical-procedures">Medical procedures</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#clinitians">Clinitians</a>
+    <a href="#advices">Advices</a>
+    <a href="#upcoming-events">Upcoming events</a>
+  </nav>
+
+  <!-- TEMPORARY CONTENT (we'll improve later) -->
+  <main>
+    <h1>Welcome to the officical page of our dental clinic. We're happy to hear from you.</h1>
+    <p>More content will come here later.</p>
+  </main>
+
+  <section id="workingHours">
+  <h2>Working hours</h2>
+  <div class="form-container">
+    <p>Please find below the working hours of our dental clinic:</p>
+    <p><strong>Monday , Tuesday , Thursday , Friday : 10:00 AM - 05:00 PM </strong>
+    <p><strong>Wednesday : Closed </strong>
+    <p><strong>Saturday : 10:00 AM - 02:00 PM </strong>
+    <p><strong>Sunday : Closed </strong>
+  </div>
+  </section>
+
+  <section id="appointment">
+  <h2>Book an appointment</h2>
+  <div class="form-container">
+
+
+  <!-- Importance sentence -->
+  <p>Regular dental check-ups are essential to prevent cavities, gum disease, and to maintain a healthy, confident smile.</p>
+
+  <!-- Phone number -->
+  <p><strong>Our assistants are at your service for appointment scheduling. </p> 
+  <p></p>Please provide them with your name and let them know the reason of your visit,whether you need a specific dental treatment or simply a check-up. This will help our assistants propose you the most suitable time slot.</p>
+
+  <p> Tel: <a href="tel:+212XXXXXXXXX">+212 539964637</a> </strong></p>
+
+  <!-- Two images -->
+  
+    <figure>
+    <img src="image1.jpg" alt="Mme Faouzia ">
+    <figcaption>Mrs Faouzia : assistant ...</figcaption>
+    </figure> 
+    <figure>
+    <img src="image2.jpg" alt="Mme ..... ">
+    <figcaption>Mrs ..... : assistant ...</figcaption>
+    </figure> 
+  
+  </section>
+
+   <section id="access">
+    <h2>Access</h2>
+
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3245.305162965957!2d-5.377806024754535!3d35.57085903603002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b4267164f853d%3A0xbe3c0c2d6cf1d274!2sDr%20Elbachaoui%20Zoubir!5e0!3m2!1sfr!2sma!4v1763382366595!5m2!1sfr!2sma"
+        width="100%"
+        height="350"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  
+
+    <p class="address-text">
+      <strong>El Bachaoui Dental Clinic</strong><br>
+      6, Av. 10 Mai, 1st floor. Apartment N°1, 93000, Tetouan, Morocco.<br>
+      (Located right in front of Café Nippon) 
+    </p>
+
+    <h2>Nearby parking</h2>
+    <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3245.30481168159!2d-5.37780602498249!3d35.5708677080893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sparking!5e0!3m2!1sfr!2sma!4v1763636711456!5m2!1sfr!2sma" 
+    width="100%s" 
+    height="350" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+  </div>
+  </section>
+
+
+  <section id="opinion">
+  <h2>Give your opinion</h2>
+
+  <div class="form-container">
+
+  <iframe 
+  src="https://docs.google.com/forms/d/e/1FAIpQLSfUbai1IWZxwUZw9SBAsrc3KsR2KGuKgpoR072aKVIHyxIBvA/viewform?embedded=true" 
+  width="640" 
+  height="927" 
+  frameborder="0" 
+  marginheight="0" 
+  marginwidth="0">Chargement…
+  </iframe>
+  </div>
+  </section>
+  
+  
+
+
+  <section id="medical-procedures">
+
+  <h2>Medical procedures</h2>
+  <div class="form-container">
+
+  <!-- The 3 clickable tabs -->
+  <div class="procedure-tabs">
+    <button class="procedure-btn" onclick="showProcedure('implantologie')">Implantologie</button>
+    <button class="procedure-btn" onclick="showProcedure('orthodontie')">Orthodontie</button>
+    <button class="procedure-btn" onclick="showProcedure('parodontologie')">Parodontologie</button>
+  </div>
+
+  <!-- Content sections -->
+  <div id="implantologie" class="procedure-content">
+    <h3>Implantologie</h3>
+    <p>Content about implantology…</p>
+  </div>
+
+  <div id="orthodontie" class="procedure-content">
+    <h3>Orthodontie</h3>
+    <p>Content about orthodontics…</p>
+  </div>
+
+  <div id="parodontologie" class="procedure-content">
+    <h3>Parodontologie</h3>
+    <p>Content about periodontology…</p>
+  </div>
+
+  </div>
+
+  <section id="facilities">
+
+  <h2>Facilities</h2>
+  <div class="form-container">
+
+  <!-- The 3 clickable tabs -->
+  <div class="facilities">
+    <button class="facilities-btn" onclick="showProcedure('coneBeam')">Cone beam computed tomography</button>
+    <button class="facilities-btn" onclick="showProcedure('')">XXXX</button>
+    <button class="facilities-btn" onclick="showProcedure('')">YYYY</button>
+  </div>
+
+  <!-- Content sections -->
+  <div id="coneBeam" class="facilities-content">
+    <h3>Cone beam computed tomography</h3>
+    <p>Content about cone beam computed tomography…</p>
+  </div>
+
+  <div id="" class="facilities-content">
+    <h3>Orthodontie</h3>
+    <p>Content about orthodontics…</p>
+  </div>
+
+  <div id="" class="facilities-content">
+    <h3>Parodontologie</h3>
+    <p>Content about periodontology…</p>
+  </div>
+
+  </div>
+
+
+</section>
+
+ <section id="clinitians">
+  <h2>Clinitians</h2>
+  <div class="form-container">
+
+
+  <div class="doctors-line">
+    <figure>
+        <img src="image1.jpg" alt="Dr Zoubir El Bachaoui">
+        <figcaption><strong>Dr Zoubir El Bachaoui</strong></figcaption>
+    </figure> 
+
+    <figure>
+        <img src="image2.jpg" alt="Dr Nadim El Bachaoui">
+        <figcaption><strong>Dr Nadim El Bachaoui</strong></figcaption>
+    </figure> 
+
+    <figure>
+        <img src="image2.jpg" alt="Dr Anas ............">
+        <figcaption><strong>Dr Anas ............</strong></figcaption>
+    </figure>
+</div>
+    </div>
+  
+  </section>
+
+
+  <section id="Advices">
+  <h2>Advices</h2>
+  <div class="form-container">
+  <p><strong> In this section, we'll povide gradually some advice about dental care and dental treatment.</strong></p>
+
+
+  </div>
+  </section>
+
+
+  <section id="upcoming-events">
+  <h2>Upcoming events</h2>
+  <div class="form-container">
+  <p><strong> In this section, we'll notice you of upcoming events. Some of them will be very technical and reserved to dentists, while others would be accessible to the public. We'll be delighted to answer to your questions.</strong></p>
+
+
+  </div>
+  </section>
+
+</body>
+
+  <footer>
+    <p>© <span id="year"></span> El Bachaoui Dental Clinic. All rights reserved.</p>
+  </footer>
+ 
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</html>
+
+
